@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* SECTION 1 STARTS */
+
+#section1{
+    background: url(images/Back\ to\ the\ Future.jpg);
+    text-align: center;
+}
+
+header>span{ 
+    font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header>img{
+    vertical-align: middle;
+}
+
+#section1 h5{
+    padding-top: 50px;
+    font-size: 3em;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#section1 h2{
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* SECTION 1 ENDS */
+
+/* SECTION 2 STARTS */
+
+#section2{
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #f79d00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.text-right{
+    color: #E8290B;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3em;
+}
+
+.row p{
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke; 
+    font-size: 28px;
+    padding: 10px 15px 0 15px;
+}
+
+.row p {
+    background-color: rgba(95, 48, 124, 0.808);
+    height: 460px;
+}
+
+.row p.mission{
+    background-color: rgba(41, 19, 49, 0.87);
+}
+
+/* SECTION 2 ENDS */
+
+/* SECTION 3 STARTS */
+
+#section3{
+    background: url(images/Back\ to\ the\ Future.jpg);
+}
+
+#section3 h1{
+    text-align: center;
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.products{
+    list-style: none;
+}
+.products li {
+    float: left;
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 0 80px 0 80px;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke;
+}
+
+.products li:hover{
+    color:#7fe473;
+}
+
+.products img {
+    vertical-align: middle;
+}
+
+.products h2{
+    display: inline-block;
+}
+
+/* SECTION 3 ENDS */
+
+/* SECTION 4 STARTS */
+
+#section4{
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#section4 h3{
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: 'Major Mono Display', monospace;
+}
+
+address,form{
+    font-family: 'Varela Round', sans-serif;
+}
+
+#section4 form{
+    margin-right: 50px;
+}
+#section4 ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+#section4 ul li{
+    margin-top: 20px;
+}
+
+/* SECTION 4 ENDS */
